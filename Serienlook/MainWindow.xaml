@@ -1,0 +1,11 @@
+﻿<Controls:MetroWindow x:Class="Serienlook.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:local="clr-namespace:Serienlook"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="391.282" Width="555.513">
+    <Button Content="Button" HorizontalAlignment="Left" Height="36" Margin="27,311,0,0" VerticalAlignment="Top" Width="110" Click="Button_Click_1"/>
+</Controls:MetroWindow>
