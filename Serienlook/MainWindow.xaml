@@ -6,6 +6,13 @@
         xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
         xmlns:local="clr-namespace:Serienlook"
         mc:Ignorable="d"
-        Title="MainWindow" Height="391.282" Width="555.513">
-    <Button Content="Button" HorizontalAlignment="Left" Height="36" Margin="27,311,0,0" VerticalAlignment="Top" Width="110" Click="Button_Click_1"/>
+        Title="MediaWatcher" Height="391.282" Width="555.513">
+    <Grid HorizontalAlignment="Left" Height="345" Margin="10,10,0,0" VerticalAlignment="Top" Width="536">
+        <ComboBox x:Name="combobox_search" HorizontalAlignment="Left" Margin="91,10,0,0" VerticalAlignment="Top" Width="435" IsEditable="True" Background="{x:Null}" SelectionChanged="combobox_search_SelectionChanged"/>
+        <Label x:Name="label_search" Content="Search:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Foreground="#FFB61818" Width="148"/>
+        <Rectangle HorizontalAlignment="Left" Margin="10,57,0,0" Stroke="Black" Width="516" Height="278" VerticalAlignment="Top"/>
+        <Image HorizontalAlignment="Left" Height="278" Margin="10,57,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label Content="Titel" HorizontalAlignment="Left" Margin="163,57,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FFA43535" Width="43"/>
+        <Label Content="&lt;empty&gt;" HorizontalAlignment="Left" Margin="206,57,0,0" VerticalAlignment="Top" Width="320" Background="{x:Null}" Foreground="Black"/>
+    </Grid>
 </Controls:MetroWindow>

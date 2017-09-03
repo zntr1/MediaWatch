@@ -29,6 +29,16 @@ namespace Serienlook{
         private void Button_Click_1(object sender, RoutedEventArgs e){
             Console.WriteLine("Button Clicked");
             Console.WriteLine("Buton22");
+            
+            
+        }
+
+        private void combobox_search_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            /*
+             * To be Filled
+             * 
+             */
         }
     }
 }
